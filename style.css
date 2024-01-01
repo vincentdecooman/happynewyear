@@ -3,6 +3,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     text-shadow: 4px 3px 0px #000000;
+    z-index: 1;
 }
 
 .section {
@@ -16,12 +17,14 @@ img {
     position: absolute;
 }
 .shrek {
+    z-index: 1;
     width: 300px;
     bottom: 0;
     left: 0;
 }
 
 .shrek2 {
+    z-index: 1;
     width: 300px;
     bottom: 0;
     right: 0;
@@ -29,6 +32,7 @@ img {
 }
 
 .maxwell {
+    z-index: 0;
     width: 275px;
     bottom: 40%;
     left: 0;
