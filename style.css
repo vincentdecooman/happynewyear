@@ -1,0 +1,43 @@
+h1 {
+    color: #87d32a;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 4px 3px 0px #000000;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+}
+.shrek {
+    bottom: 0;
+    left: 0;
+}
+
+.shrek2 {
+    bottom: 0;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.maxwell {
+    width: 275px;
+    bottom: 47%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body {
+
+    background-image: url("images/background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
