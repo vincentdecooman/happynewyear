@@ -16,11 +16,13 @@ img {
     position: absolute;
 }
 .shrek {
+    width: 300px;
     bottom: 0;
     left: 0;
 }
 
 .shrek2 {
+    width: 300px;
     bottom: 0;
     right: 0;
     transform: scaleX(-1);
@@ -28,7 +30,7 @@ img {
 
 .maxwell {
     width: 275px;
-    bottom: 47%;
+    bottom: 40%;
     left: 0;
     right: 0;
     margin: auto;
